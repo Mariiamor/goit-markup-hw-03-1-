@@ -273,6 +273,9 @@ line-height: 1.5;
     background-color: #2E2F42;
     font-family: inherit;
     padding: 100px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 
 }
 .accent-footer{
@@ -296,12 +299,7 @@ line-height: 1.5;
     display: inline-block;
     margin-bottom: 16px;
 }
-.down .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
+
 img{
     display: block;
 }
