@@ -179,7 +179,7 @@ line-height: 1.5;
     gap: 24px;
 }
 .dir-content{
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4)
 }
 .team-list-content {
     display: flex;
@@ -188,8 +188,9 @@ line-height: 1.5;
 
 .team-list {
     background-color: #FFFFFF;
-    width: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4)
     border-radius: 0px 0px 4px 4px;
+    
 }
 
 .dir-name {
