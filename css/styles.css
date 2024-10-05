@@ -27,8 +27,6 @@ header {
     display: flex;
 }
 .header-container{
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
 }
 .nav-list{
@@ -72,6 +70,7 @@ letter-spacing: 0.03em;
     letter-spacing: 0.02em;
     color: #2E2F42;
     padding: 24px 0;
+    display: block;
 }
 .link-header:hover {
     color: #404bbf;}
@@ -309,4 +308,7 @@ line-height: 1.5;
 
 img{
     display: block;
+}
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
 }
