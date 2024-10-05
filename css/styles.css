@@ -179,7 +179,7 @@ line-height: 1.5;
     gap: 24px;
 }
 .dir-content{
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 .team-list-content {
     display: flex;
@@ -188,7 +188,7 @@ line-height: 1.5;
 
 .team-list {
     background-color: #FFFFFF;
-    flex-basis: calc((100% - 3 * 24px) / 4)
+    flex-basis: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
     
 }
@@ -257,7 +257,7 @@ line-height: 1.5;
 
 }
 .port-list{
-    width: calc((100% - 48px) / 3);
+    width: calc(100% - 48px) / 3;
 }
 .dir-app{
     padding: 32px 16px;
