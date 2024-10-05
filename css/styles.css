@@ -268,6 +268,7 @@ line-height: 1.5;
 .down {
     background-color: #2E2F42;
     font-family: inherit;
+    padding: 100px 0;
 
 }
 .accent-footer{
@@ -285,5 +286,15 @@ line-height: 1.5;
     font-weight: inherit;
     line-height: 1.5;
     letter-spacing: 0.02em;
-
+    max-width: 264px;
+}
+.footer-logo{
+    display: inline-block;
+    margin-bottom: 16px;
+}
+.down .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
 }
