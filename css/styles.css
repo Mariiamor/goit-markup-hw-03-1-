@@ -227,6 +227,10 @@ line-height: 1.5;
     justify-content: center;
     align-items: center;
 }
+.portfolio{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
 .titletwo{
     text-align: center;
         font-size: 36px;
@@ -239,6 +243,27 @@ line-height: 1.5;
         color: #2E2F42;
         margin-bottom: 72px;
   
+}
+.port-content{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+
+}
+.port-list{
+    width: calc((100% - 48px) / 3);
+}
+.dir-app{
+    padding: 32px 16px;
+    border: 1px solid #E7E9FC;
+    border-top: none;
+}
+.portfolio .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .down {
     background-color: #2E2F42;
